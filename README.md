@@ -34,7 +34,6 @@ Then I try the exponential decay model and logistic model. They worked out OK ex
 So to fix this we just need to set a lower limit to the seafloor temperature and the problem solved.
 
 ![image](https://github.com/user-attachments/assets/50227782-b9ae-4b94-8939-7ef8f57a9bb1)
-![image](https://github.com/user-attachments/assets/621e0984-8241-449d-86a9-80ecda9afccc)
 
 In general, using ML, it is able to discover better physical models that fit the data. The final model that I like to use in the future for estimation seafloor temperature would be:
 
