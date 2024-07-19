@@ -10,7 +10,7 @@ Liu, Y., J. H. Casado, M. El-Toukhy, and S. Tai, 2021, Basin-wide  empirical roc
 
 Notes:
 
-The input file is the .csv file and it will be called into the Jupiter Notebook.
+The input file is the .csv file and it will be called into the Jupiter Notebook: Use_ML_Discover_New_Physical_Model.ipynb
 
 Decription:
 
