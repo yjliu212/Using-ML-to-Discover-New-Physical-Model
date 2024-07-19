@@ -35,7 +35,7 @@ So to fix this we just need to set a lower limit to the seafloor temperature and
 
 ![image](https://github.com/user-attachments/assets/50227782-b9ae-4b94-8939-7ef8f57a9bb1)
 
-In general, using ML, it is able to discover better physical models that fit the data. The final model that I like to use in the future for estimation seafloor temperature would be:
+In general, using ML, it is able to discover better physical models that fit the data. The final model that I like to use in the future for estimation of seafloor temperature would be:
 
 Exponential Decay Model Equation: Tsfl = 38.45 + 40.22 * exp(-0.0008 * D)
 with a lower limit set to around 40 F.
