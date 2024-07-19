@@ -28,9 +28,6 @@ So I first try a few regressions, inclusing linear, polynomial, and Logarithmic 
 
 Then I try the exponential decay model and logistic model. They worked out OK except that the seafloor temperature will not be lower than a limit close to 40 F.
 
-![image](https://github.com/user-attachments/assets/328384a4-ba3c-451a-b414-5405d8fb83ce)
-![image](https://github.com/user-attachments/assets/2bb957ab-f38e-4491-8fcf-b66b163bb267)
-
 So to fix this we just need to set a lower limit to the seafloor temperature and the problem solved.
 
 ![image](https://github.com/user-attachments/assets/50227782-b9ae-4b94-8939-7ef8f57a9bb1)
