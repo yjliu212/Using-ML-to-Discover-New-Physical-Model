@@ -26,7 +26,7 @@ So let's first try a few regressions, including linear, polynomial, and logarith
 
 ![image](https://github.com/user-attachments/assets/9a65bd4d-35e9-4dda-a818-613d9552c2fb)
 
-Then let's try the exponential decay model and logistic model. They both worked out OK except for that the seafloor temperature should not be lower than a limit that is close to 40 F, when the water depth is bery deep.
+Then let's try the exponential decay model and logistic model. They both worked out OK except for that the seafloor temperature should not be lower than a limit that is close to 40 F.
 
 To fix this issue, we just need to set a lower limit to the modeled seafloor temperature and the problem is solved.
 
