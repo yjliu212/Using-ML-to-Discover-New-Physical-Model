@@ -6,7 +6,7 @@ Reference Paper:
 
 Forrest, J., E. Marcucci, and P. Scott, 2005, Geothermal gradients and  subsurface temperatures in the Northern Gulf of Mexico: Gulf Coast  Association of Geological Societies Transactions, 55, 233–248. 
 
-Liu, Y., J. H. Casado, M. El-Toukhy, and S. Tai, 2021, Basin-wide  empirical rock-physics transform and its application in Campeche  Basin: The Leading Edge, 40, no. 3, 178–185,
+Liu, Y., J. H. Casado, M. El-Toukhy, and S. Tai, 2021, Basin-wide  empirical rock-physics transform and its application in Campeche  Basin: The Leading Edge, 40, no. 3, 178–184. (https://library.seg.org/doi/10.1190/tle40030178.1)
 
 Notes:
 
