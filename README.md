@@ -14,27 +14,25 @@ The input file is the .csv file and it will be loaded and be used to run the opt
 
 Decription:
 
-In Liu et al., (2021), we provided a physical model to model the seafloor temperature based on the mean seafloor temperature data published in Forrest et al., (2005). When we compare this model's result to the original data, it looks like below:
+In Liu et al. (2021), we developed a physical model to estimate seafloor temperature based on the mean seafloor temperature data published by Forrest et al. (2005). The comparison of the model's predictions with the original data is shown below:
 
 ![image](https://github.com/user-attachments/assets/1961c89c-204d-4be9-9b06-1164108e7629)
 
-We can see that for majority of the figure, there is a good match, however, in the middle portion of the figure, there are some mis-match which indicates that the model can be further improved. This original physical model was created from experience. There are many empirical equations in rock physics that have a decreasing trend, such as porosity. So we simulated such a trend and obtained the original equation: Tsfl=40+37*(1-0.00025*D)**2.9, here D is water depth in feet and Tsfl is the seafloor temperature in F.
+For most of the data, the model provides a good match. However, there is some deviation in the middle section, indicating potential for further improvement. This original model was based on empirical experience. In rock physics, many trends, such as porosity, exhibit a similar decreasing pattern. Following this logic, we derived the original equation: Tsfl=40+37*(1-0.00025*D)**2.9, where D is water depth in feet and Tsfl is the seafloor temperature in degrees Fahrenheit (F).
 
-Now, let's further improve the accuracy and find a better physical model to satisfy the original data. Why not use machine learning to do it.
-
-So let's first try a few regressions, including linear, polynomial, and logarithmic regressions. However, the results are not very satisfactory, as shown below.
+To improve the model’s accuracy, we explored using machine learning techniques. We began by applying several regressions, including linear, polynomial, and logarithmic. However, none provided a satisfactory fit. As shown below.
 
 ![image](https://github.com/user-attachments/assets/9a65bd4d-35e9-4dda-a818-613d9552c2fb)
 
-Then let's try the exponential decay model and logistic model. They both worked out OK except for that the seafloor temperature should not be lower than a limit that is close to 40 F.
+We then tried the exponential decay and logistic models, both of which performed better. However, the seafloor temperature should not drop below a threshold close to 40°F, which these models initially failed to account for.
 
-To fix this issue, we just need to set a lower limit to the modeled seafloor temperature and the problem is solved.
+To address this, we set a lower limit for the modeled seafloor temperature, ensuring it doesn't fall below 40°F, effectively resolving the issue.
 
 ![image](https://github.com/user-attachments/assets/50227782-b9ae-4b94-8939-7ef8f57a9bb1)
 
-In general, using ML, we are able to discover better physical models that satisfy the data. This exercise is a simple example but demonstrated some basic steps to achieve a discovery. 
+This example demonstrates how machine learning can help refine physical models, offering better fits to empirical data. While this is a simple case, it illustrates the basic steps involved in model discovery.
 
-In conclusion, through this exercise a simple new model that we can recommend to predict seafloor temperature is:
+In conclusion, we recommend the following new model for predicting seafloor temperature:
 
 Exponential Decay Model: Tsfl = 38.45 + 40.22 * exp(-0.0008 * D),
 with a lower limit set to 40 F.
