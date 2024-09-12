@@ -36,5 +36,3 @@ In conclusion, we recommend the following new model for predicting seafloor temp
 
 Exponential Decay Model: Tsfl = 38.45 + 40.22 * exp(-0.0008 * D),
 with a lower limit set to 40 F.
-
-Here, D is water depth in feet, Tsfl is seafloor temperature in F.
